@@ -6,10 +6,11 @@ class BenchmarkController extends AppController {
 	var $components = array();
     var $layout = null;
     var $autoLayout = false;
+    var $autoRender = false;
 
 
 	function index() {
-    	die("Hello World");
+    	echo "Hello World";
     }
 }
 

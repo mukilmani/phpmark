@@ -17,6 +17,6 @@ class contentActions extends sfActions
   */
   public function executeIndex($request)
   {
-  	  die('hello world');
+  	  echo 'hello world';
   }
 }

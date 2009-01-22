@@ -10,6 +10,6 @@ class SiteController extends CController
 	 */
 	public function actionIndex()
 	{
-		die('hello world');
+		echo 'hello world';
 	}
 }

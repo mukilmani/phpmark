@@ -2,11 +2,12 @@
 class HelloController extends AppController {
     var $layout = null;
     var $autoLayout = false;
+    var $autoRender = false;
     var $uses = array();
     var $helpers = null;
 
     function index()
     {
-        die('hello world');
+        echo 'hello world';
     }
 }
