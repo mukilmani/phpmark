@@ -4,6 +4,7 @@ class IndexController extends Zend_Controller_Action
 {
     public function indexAction()
     {
-    	die('hello world');
+		Zend_Controller_Action_HelperBroker::removeHelper('ViewRenderer');
+    	echo( 'hello world');
     }
 }

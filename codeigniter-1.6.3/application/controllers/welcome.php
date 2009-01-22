@@ -9,7 +9,7 @@ class Welcome extends Controller {
 
 	function index()
 	{
-		die('hello world');
+		echo 'hello world';
 	}
 }
 
