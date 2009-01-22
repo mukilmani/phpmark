@@ -16,11 +16,13 @@ baseline-html:               /baseline/index.html
 baseline-php:                /baseline/index.php
 CakePHP 1.1.20:              /cakephp-1.1.20/webroot/index.php
 CakePHP 1.2.0:               /cakephp-1.2.0/benchmark
+CakePHP 1.2.1:               /cakephp-1.2.1/benchmark
 CodeIgniter 1.6.3:           /codeigniter-1.6.3/index.php
 CodeIgniter 1.7.0:           /codeigniter-1.7.0/index.php
 Prado 3.1.3:                 /prado-3.1.3/index.php
 Symfony 1.1.6:               /symfony-1.1.6/web/index.php
 Symfony 1.2.1:               /symfony-1.2.1/web/index.php
+Symfony 1.2.2:               /symfony-1.2.2/web/index.php
 Yii 1.0.0:                   /yii-1.0.0/index.php
 Yii 1.0.0 with yiilite:      /yii-1.0.0/index2.php
 Yii 1.0.1:                   /yii-1.0.1/index.php
