@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Change the following settings if needed
-BENCH_INIT="/usr/bin/ab -n 5";
-BENCH_EXEC="/usr/bin/ab -t 30 -c 10"
-HTTP_START='sudo /etc/init.d/httpd start'
-HTTP_STOP='sudo /etc/init.d/httpd stop'
+BENCH_INIT="/usr/sbin/ab -n 5";
+BENCH_EXEC="/usr/sbin/ab -t 30 -c 10"
+HTTP_START='sudo /etc/init.d/apache2 start'
+HTTP_STOP='sudo /etc/init.d/apache2 stop'
 
 CONFIG_FILE='README'
 TIME=`date "+%Y%m%d-%H%M%S"`
